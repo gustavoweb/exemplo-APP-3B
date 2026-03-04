@@ -8,13 +8,53 @@ section{
   height: 80vh;
   background: purple;
   border-radius: 0 0 120px 0;
-  display: flex;
 }
 #menu{
   width: 14%;
-  height: 4vh;
-  background: yellow;
+  height: auto;
+  /* background: yellow; */
   float: left;
   margin-left: 3%;
   margin-top: 2vh;
+  font-size: 4rem;
+  line-height: 4vh;
+  color: #fff;
+}
+#usuario{
+  width: 14%;
+  height: auto;
+  /* background: green; */
+  float: right;
+  margin-top: 2vh;
+  margin-right: 3%;
+  font-size: 5rem;
+  line-height: 4vh;
+  color: #fff;
+}
+h1{
+  width: 100%;
+  height: auto;
+  /* background: yellow; */
+  float: left;
+  padding-left: 5%;
+  padding-right: 45%;
+  margin-top: 30vh;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 2px 2px 4px #000;
+}
+button{
+  width: 60%;
+  height: 6vh;
+  background: #5313f0;
+  color: #fff;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: bold;
+  border: none;
+  border-radius: 25px;
+  margin-left: 20%;
+  margin-top: 6vh;
+  font-size: 1.1rem;
 }
